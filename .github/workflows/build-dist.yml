@@ -15,6 +15,9 @@ on:
         required: false
         default: 'feat/doorbell-http-trigger'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
